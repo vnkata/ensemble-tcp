@@ -1,0 +1,1063 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Run all test cases Nghia",Chrome 79.0.3945.88,,,2019-12-28 20:23:40,2019-12-28 20:41:40,18m - 1080.315s,PASSED
+,,,,,,,
+"Test Cases/Team Settings/Edit allowing users with specific domain",Chrome 79.0.3945.88,,,2019-12-28 20:23:41,2019-12-28 20:23:56,15.743s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:23:41,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:23:50,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:23:51,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:23:52,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:23:53,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_nghia_username_style--none sidebar-h_21d8b3"))",Chrome 79.0.3945.88,,,2019-12-28 20:23:53,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Team Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:23:55,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:23:55,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:23:55,,,PASSED
+"click(findTestObject("Object Repository/Page_ Town Square - cs300 Mattermost/button_Close"))",Chrome 79.0.3945.88,,,2019-12-28 20:23:56,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:23:56,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/ChangeTheme",Chrome 79.0.3945.88,,,2019-12-28 20:23:57,2019-12-28 20:24:39,42.989s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:23:57,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:23:57,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:23:57,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:24:02,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:03,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:05,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:05,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:05,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:08,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:08,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Theme"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:09,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/img_Mattermost Dark_img-responsive"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:24:09,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:10,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:24:10,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:24:10,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:24:11,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:24:16,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:17,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:20,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:20,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:20,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:22,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:23,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Theme"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:24,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/img_Mattermost Dark_img-responsive"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:24:24,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:25,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:24:25,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:24:25,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:24:26,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:24:31,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:31,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:24:33,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:34,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:34,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:35,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:36,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Theme"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/img_Mattermost Dark_img-responsive"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:24:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:38,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:24:39,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:24:39,,,PASSED
+,,,,,,,
+"Test Cases/Member Management/Add members",Chrome 79.0.3945.88,,,2019-12-28 20:24:40,2019-12-28 20:25:28,48.255s,FAILED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:24:40,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:24:45,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), "ntrtung17@apcs.vn")",Chrome 79.0.3945.88,,,2019-12-28 20:24:47,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), "hstsS7C9scUB/ZVGAoeSGw==")",Chrome 79.0.3945.88,,,2019-12-28 20:24:49,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:49,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:24:50,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:52,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/span_cs300_test_manual_channelHeaderDropdownIcon"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:24:53,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Add Members"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:53,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/div_conga"))",Chrome 79.0.3945.88,,,2019-12-28 20:24:54,,,FAILED
+,,,,,,,
+"Test Cases/Member Management/Remove Members",Chrome 79.0.3945.88,,,2019-12-28 20:25:28,2019-12-28 20:25:41,13.734s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:25:28,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:25:34,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), "ntrtung17@apcs.vn")",Chrome 79.0.3945.88,,,2019-12-28 20:25:34,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), "hstsS7C9scUB/ZVGAoeSGw==")",Chrome 79.0.3945.88,,,2019-12-28 20:25:36,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:36,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:25:37,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:39,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/span_cs300_test_manual_channelHeaderDropdownIcon"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:25:39,,,PASSED
+"click(findTestObject("new/button_Manage Members"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:40,,,PASSED
+"setText(findTestObject("new/input_Add New Members_searchUsersInput"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:25:40,,,PASSED
+"click(findTestObject("new/span_Channel Member"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:40,,,PASSED
+"click(findTestObject("new/button_Remove From Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:41,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:25:41,,,PASSED
+,,,,,,,
+"Test Cases/Team Settings/Allow any user with any mail on this server to join this team",Chrome 79.0.3945.88,,,2019-12-28 20:25:42,2019-12-28 20:25:54,12.722s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:25:42,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:25:47,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:25:48,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:25:49,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:25:50,,,PASSED
+"click(findTestObject("Object Repository/Page_ Town Square - cs300 Mattermost/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:50,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Team Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:52,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:52,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:52,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:25:53,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:25:53,,,PASSED
+,,,,,,,
+"Test Cases/Team Settings/Edit Team Description",Chrome 79.0.3945.88,,,2019-12-28 20:25:54,2019-12-28 20:26:08,14.246s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:25:54,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:26:00,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:26:00,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:26:03,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:26:03,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_nghia_username_style--none sidebar-h_21d8b3"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:04,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Team Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:07,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:07,,,PASSED
+"click(findTestObject("Object Repository/Page_ Town Square - cs300 Mattermost/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:07,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:07,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:26:07,,,PASSED
+,,,,,,,
+"Test Cases/Team Settings/Edit Team Name",Chrome 79.0.3945.88,,,2019-12-28 20:26:09,2019-12-28 20:26:19,10.603s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:09,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:26:14,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:26:15,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:26:16,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:26:16,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_nghia_username_style--none sidebar-h_21d8b3"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:16,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Team Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:18,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/button_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:18,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:18,,,PASSED
+"click(findTestObject("Page_ Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:18,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:26:18,,,PASSED
+,,,,,,,
+"Test Cases/Login/Cannot join in channel through invite link with existing account",Chrome 79.0.3945.88,,,2019-12-28 20:26:19,2019-12-28 20:26:28,9.115s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:19,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/signup_user_complete/?id=6hc3nrr67jb78jy1pziwp6zwnr")",Chrome 79.0.3945.88,,,2019-12-28 20:26:25,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_concat(What  s your email address)_email"), "conga@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:26:25,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_Choose your username_name"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:26:26,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_Choose your password_password"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:26:26,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_Choose your password_password"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:26:27,,,PASSED
+"check(findTestObject("Page_Mattermost/label_An account with that username already exists"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:27,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:26:27,,,PASSED
+,,,,,,,
+"Test Cases/Login/Invite new people to workspace",Chrome 79.0.3945.88,,,2019-12-28 20:26:28,2019-12-28 20:26:39,11.508s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:28,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:26:34,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:26:34,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "awyKmK6mXYE11KLcBDswgw==")",Chrome 79.0.3945.88,,,2019-12-28 20:26:36,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:26:36,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:26:36,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:26:36,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/svg"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:37,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_Invite People"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:39,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:26:39,,,PASSED
+,,,,,,,
+"Test Cases/Login/Login successfully",Chrome 79.0.3945.88,,,2019-12-28 20:26:40,2019-12-28 20:26:47,7.203s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:40,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:26:45,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:26:46,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:26:46,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:47,,,PASSED
+,,,,,,,
+"Test Cases/Login/Login with invalid credentials must fail",Chrome 79.0.3945.88,,,2019-12-28 20:26:47,2019-12-28 20:26:56,9.145s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:47,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:26:53,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "invalid@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:26:53,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "6Pok2V4tFuMFiBZxBkNoWQ==")",Chrome 79.0.3945.88,,,2019-12-28 20:26:55,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:55,,,PASSED
+"click(findTestObject("Object Repository/Page_Mattermost/span_I forgot my password"))",Chrome 79.0.3945.88,,,2019-12-28 20:26:55,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:26:55,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a regular team",Chrome 79.0.3945.88,,,2019-12-28 20:26:56,2019-12-28 20:27:07,11.182s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:26:56,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:27:02,,,PASSED
+"setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:27:02,,,PASSED
+"setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:27:03,,,PASSED
+"sendKeys(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:27:03,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/div_"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:03,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(6)",Chrome 79.0.3945.88,,,2019-12-28 20:27:05,,,PASSED
+"setText(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:05,,,PASSED
+"sendKeys(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:27:06,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Back to previous step"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:06,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Next"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:06,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Finish"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:06,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/" + teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:06,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:27:07,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a regular team but cancel",Chrome 79.0.3945.88,,,2019-12-28 20:27:08,2019-12-28 20:27:18,10.887s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:27:08,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:27:13,,,PASSED
+"setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:27:14,,,PASSED
+"setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:27:15,,,PASSED
+"click(findTestObject("Object Repository/Page_Mattermost/button_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:15,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/div_"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:15,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Back"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:17,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:27:17,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a regular team with Back",Chrome 79.0.3945.88,,,2019-12-28 20:27:18,2019-12-28 20:27:29,11.2s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:27:18,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:27:23,,,PASSED
+"setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:27:24,,,PASSED
+"setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:27:25,,,PASSED
+"sendKeys(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:27:26,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/div_"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:26,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:27:27,,,PASSED
+"setText(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:27,,,PASSED
+"sendKeys(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:27:27,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Back to previous step"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"setText(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_Next"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/form_Team URLhttp10242158308065Choose the w_f3cce3"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/form_Team URLhttp10242158308065Choose the w_f3cce3"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/span_Finish"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/" + teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:28,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:27:29,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a team with dropdown",Chrome 79.0.3945.88,,,2019-12-28 20:27:30,2019-12-28 20:27:43,13.816s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:27:30,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:27:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:27:36,,,PASSED
+"setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:27:38,,,PASSED
+"click(findTestObject("Object Repository/Page_Mattermost/button_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:38,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_abcone_style--none sidebar-header-dr_e1b532"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:38,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/a_Create a New Team"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:40,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(6)",Chrome 79.0.3945.88,,,2019-12-28 20:27:40,,,PASSED
+"setText(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:40,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_Next"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:41,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_Finish"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:41,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/" + teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:27:42,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:27:42,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a team with dropdown but cancel",Chrome 79.0.3945.88,,,2019-12-28 20:27:44,2019-12-28 20:27:57,13.516s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:27:44,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:27:49,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:27:50,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:27:52,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:27:52,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/button_abcone_style--none sidebar-header-dr_e1b532"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:52,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/a_Create a New Team"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:55,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/span_Back"))",Chrome 79.0.3945.88,,,2019-12-28 20:27:55,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:27:56,,,PASSED
+,,,,,,,
+"Test Cases/Create a Team/Create a team with dropdown with Back",Chrome 79.0.3945.88,,,2019-12-28 20:27:57,2019-12-28 20:28:11,14.903s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:27:57,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:28:03,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:28:04,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:28:05,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:28:06,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_abcone_style--none sidebar-header-dr_e1b532"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:06,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/a_Create a New Team"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:09,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:28:09,,,PASSED
+"setText(findTestObject("Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:28:09,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/button_Next"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/span_Back to previous step"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"teamname = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"setText(findTestObject("Page_Town Square - cs300 Mattermost/input_Team Name_teamNameInput"), teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/button_Next"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/span_Finish"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:10,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/" + teamname)",Chrome 79.0.3945.88,,,2019-12-28 20:28:11,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:28:11,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private and change to public channel",Chrome 79.0.3945.88,,,2019-12-28 20:28:13,2019-12-28 20:28:25,12.485s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:28:13,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:28:18,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:28:19,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:28:20,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:28:20,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:21,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Type_channelType"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:22,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:28:23,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:23,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:23,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:23,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:28:23,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private and change to public channel with header",Chrome 79.0.3945.88,,,2019-12-28 20:28:24,2019-12-28 20:28:37,13.558s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:28:24,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:28:30,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:28:30,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:28:31,,,PASSED
+"click(findTestObject("Page_Mattermost/button_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:32,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:32,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Type_channelType"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:34,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:28:34,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:34,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelHeader"), "H")",Chrome 79.0.3945.88,,,2019-12-28 20:28:34,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_H"), "He")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_He"), "Her")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Her"), "Here")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here"), "Here ")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here_1"), "Here i")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here i"), "Here it")",Chrome 79.0.3945.88,,,2019-12-28 20:28:35,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here it"), "Here it ")",Chrome 79.0.3945.88,,,2019-12-28 20:28:36,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here it_1"), "Here it i")",Chrome 79.0.3945.88,,,2019-12-28 20:28:36,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Here it i"), "Here it is")",Chrome 79.0.3945.88,,,2019-12-28 20:28:36,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:36,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:36,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:28:37,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private and change to public channel with purpose",Chrome 79.0.3945.88,,,2019-12-28 20:28:38,2019-12-28 20:28:51,13.053s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:28:38,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:28:43,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:28:44,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:28:46,,,PASSED
+"click(findTestObject("Page_Mattermost/button_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:46,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:46,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Type_channelType"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:48,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:28:48,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:48,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelPurpose"), "P")",Chrome 79.0.3945.88,,,2019-12-28 20:28:48,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_P"), "Pu")",Chrome 79.0.3945.88,,,2019-12-28 20:28:48,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Pu"), "Pur")",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Pur"), "Purp")",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Purp"), "Purpo")",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Purpo"), "Purpos")",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Purpos"), "Purpose")",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:49,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:28:50,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:28:50,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private channel with header",Chrome 79.0.3945.88,,,2019-12-28 20:28:51,2019-12-28 20:29:06,15.863s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:28:51,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:28:56,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:28:57,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:28:59,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:28:59,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:28:59,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:29:01,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:01,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelHeader"), "H")",Chrome 79.0.3945.88,,,2019-12-28 20:29:02,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_H"), "He")",Chrome 79.0.3945.88,,,2019-12-28 20:29:02,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_He"), "Hea")",Chrome 79.0.3945.88,,,2019-12-28 20:29:03,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Hea"), "Head")",Chrome 79.0.3945.88,,,2019-12-28 20:29:03,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Head"), "Heade")",Chrome 79.0.3945.88,,,2019-12-28 20:29:03,,,PASSED
+"setText(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/textarea_Heade"), "Header")",Chrome 79.0.3945.88,,,2019-12-28 20:29:04,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:04,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:04,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:29:06,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private channel with purpose",Chrome 79.0.3945.88,,,2019-12-28 20:29:07,2019-12-28 20:29:25,18.383s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:29:07,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:29:12,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:29:13,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:29:15,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:29:16,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:16,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:29:20,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:20,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelPurpose"), "P")",Chrome 79.0.3945.88,,,2019-12-28 20:29:20,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_P"), "Pu")",Chrome 79.0.3945.88,,,2019-12-28 20:29:21,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pu"), "Pur")",Chrome 79.0.3945.88,,,2019-12-28 20:29:21,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pur"), "Purp")",Chrome 79.0.3945.88,,,2019-12-28 20:29:22,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purp"), "Purpo")",Chrome 79.0.3945.88,,,2019-12-28 20:29:22,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpo"), "Purpos")",Chrome 79.0.3945.88,,,2019-12-28 20:29:22,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpos"), "Purpose")",Chrome 79.0.3945.88,,,2019-12-28 20:29:22,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:23,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:23,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:29:24,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public and change to private channel",Chrome 79.0.3945.88,,,2019-12-28 20:29:25,2019-12-28 20:29:39,14.685s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:29:25,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:29:31,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:29:33,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:29:34,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:29:34,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:34,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/div_Private - Only invited members can join_72d93f"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:37,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:29:37,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:37,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:38,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:38,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:29:39,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public and change to private channel with header",Chrome 79.0.3945.88,,,2019-12-28 20:29:40,2019-12-28 20:29:52,12.377s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:29:40,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:29:46,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:29:47,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:29:48,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:48,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:48,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/div_Private - Only invited members can join_72d93f"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelHeader"), "H")",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_H"), "He")",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_He"), "Hea")",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Hea"), "Head")",Chrome 79.0.3945.88,,,2019-12-28 20:29:50,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Head"), "Heade")",Chrome 79.0.3945.88,,,2019-12-28 20:29:51,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Heade"), "Header")",Chrome 79.0.3945.88,,,2019-12-28 20:29:51,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:29:51,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:29:51,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:29:51,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public and change to private channel with purpose",Chrome 79.0.3945.88,,,2019-12-28 20:29:52,2019-12-28 20:30:08,16.982s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:29:52,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:29:58,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:29:59,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:30:02,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:30:02,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:02,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_- Anyone can join this channel_channelType"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:05,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:30:05,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:05,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelPurpose"), "P")",Chrome 79.0.3945.88,,,2019-12-28 20:30:06,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_P"), "Pu")",Chrome 79.0.3945.88,,,2019-12-28 20:30:06,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pu"), "Pur")",Chrome 79.0.3945.88,,,2019-12-28 20:30:06,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pur"), "Purp")",Chrome 79.0.3945.88,,,2019-12-28 20:30:06,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purp"), "Purpo")",Chrome 79.0.3945.88,,,2019-12-28 20:30:07,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpo"), "Purpos")",Chrome 79.0.3945.88,,,2019-12-28 20:30:07,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpos"), "Purpose")",Chrome 79.0.3945.88,,,2019-12-28 20:30:07,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:07,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:07,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:30:08,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public channel",Chrome 79.0.3945.88,,,2019-12-28 20:30:09,2019-12-28 20:30:21,12.797s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:30:09,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:30:15,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:30:16,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:30:17,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:30:17,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:17,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:30:19,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:19,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:20,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:20,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:30:21,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public channel with header",Chrome 79.0.3945.88,,,2019-12-28 20:30:22,2019-12-28 20:30:34,12.315s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:30:22,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:30:27,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:30:28,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:30:29,,,PASSED
+"click(findTestObject("Page_Mattermost/button_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:30,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:30,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:30:32,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:32,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelHeader"), "H")",Chrome 79.0.3945.88,,,2019-12-28 20:30:32,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_H"), "He")",Chrome 79.0.3945.88,,,2019-12-28 20:30:32,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_He"), "Hea")",Chrome 79.0.3945.88,,,2019-12-28 20:30:32,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Hea"), "Head")",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Head"), "Heade")",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Heade"), "Header")",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:30:33,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a public channel with purpose",Chrome 79.0.3945.88,,,2019-12-28 20:30:34,2019-12-28 20:30:46,12.134s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:30:34,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:30:40,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:30:40,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:30:41,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:30:41,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:41,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:30:43,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:43,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_(optional)_newChannelPurpose"), "P")",Chrome 79.0.3945.88,,,2019-12-28 20:30:43,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_P"), "Pu")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pu"), "Pur")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Pur"), "Purp")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purp"), "Purpo")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpo"), "Purpos")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/textarea_Purpos"), "Purpose")",Chrome 79.0.3945.88,,,2019-12-28 20:30:44,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:45,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:45,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:30:45,,,PASSED
+,,,,,,,
+"Test Cases/Create a Channel/Create a private channel",Chrome 79.0.3945.88,,,2019-12-28 20:30:46,2019-12-28 20:30:56,10.613s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:30:46,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/")",Chrome 79.0.3945.88,,,2019-12-28 20:30:52,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "abcone")",Chrome 79.0.3945.88,,,2019-12-28 20:30:52,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "iGDxf8hSRT4=")",Chrome 79.0.3945.88,,,2019-12-28 20:30:53,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:30:53,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:54,,,PASSED
+"channelName = RandomStringUtils.randomAlphabetic(8)",Chrome 79.0.3945.88,,,2019-12-28 20:30:55,,,PASSED
+"setText(findTestObject("Page_(1)  Town Square - cs300 Mattermost/input_Name_newChannelName"), channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:55,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Create New Channel"))",Chrome 79.0.3945.88,,,2019-12-28 20:30:56,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/" + channelName)",Chrome 79.0.3945.88,,,2019-12-28 20:30:56,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:30:56,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Message to a private channel",Chrome 79.0.3945.88,,,2019-12-28 20:30:57,2019-12-28 20:31:29,32.839s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:30:57,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:30:57,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:30:57,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:31:02,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:03,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:05,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:05,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:31:05,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:07,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:31:07,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:31:08,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:31:13,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:14,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:15,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:16,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:31:16,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:18,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:31:18,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:31:19,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:31:24,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:25,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:27,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:27,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:31:27,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:29,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:31:29,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Message to a private channel with smiling icon",Chrome 79.0.3945.88,,,2019-12-28 20:31:30,2019-12-28 20:32:09,39.403s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:31:30,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:31:30,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:31:30,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:31:35,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:36,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:37,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:37,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:31:38,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:39,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:40,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:41,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:31:41,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:31:42,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:31:47,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:47,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:31:49,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:49,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:31:50,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:53,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:53,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:31:55,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:31:55,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:31:55,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/channel_1")",Chrome 79.0.3945.88,,,2019-12-28 20:32:01,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:01,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:03,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:03,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:32:03,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:06,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:07,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:08,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:32:08,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Direct Message with crying Icon",Chrome 79.0.3945.88,,,2019-12-28 20:32:10,2019-12-28 20:33:01,51.849s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:32:10,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:32:10,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:32:10,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:32:16,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:16,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:18,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:18,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:32:18,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:21,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/cry_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:21,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:23,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:32:23,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:32:24,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:32:29,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:30,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:32,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:32,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:32:32,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:37,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/cry_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:37,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:40,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:32:41,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:32:42,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:32:48,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:49,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:32:52,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:52,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:32:52,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:56,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/cry_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:56,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:32:58,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:32:59,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Message to a public channel with smiling icon",Chrome 79.0.3945.88,,,2019-12-28 20:33:02,2019-12-28 20:33:43,41.274s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:33:02,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:33:02,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:33:02,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:33:07,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:08,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:09,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:10,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:33:10,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:12,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:12,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:13,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:33:14,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:33:15,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:33:20,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:20,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:22,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:23,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:33:23,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:25,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:26,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:27,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:33:27,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:33:28,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:33:33,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:34,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:36,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:36,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:33:36,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/button_Write to tung_fake_style--none emoji-picker__container post-action"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:40,,,PASSED
+"click(findTestObject("Page_Mattermost-Message-And-MemberManagement/smile_icon"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:40,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:41,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:33:42,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Direct Message to another account",Chrome 79.0.3945.88,,,2019-12-28 20:33:43,2019-12-28 20:34:18,35.318s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:33:43,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:33:43,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:33:43,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:33:48,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:49,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:50,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:50,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:33:50,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:33:53,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:33:53,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:33:53,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:33:59,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:33:59,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:01,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:02,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:34:02,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:04,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:34:05,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:34:05,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/messages/@tung_fake")",Chrome 79.0.3945.88,,,2019-12-28 20:34:10,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:11,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:14,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:14,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:34:14,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:17,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:34:17,,,PASSED
+,,,,,,,
+"Test Cases/Message Function/Send Message to a public channel",Chrome 79.0.3945.88,,,2019-12-28 20:34:18,2019-12-28 20:34:57,39.706s,PASSED
+"data = findTestData("Data_In_Test_Message")",Chrome 79.0.3945.88,,,2019-12-28 20:34:18,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:34:18,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:34:18,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:34:23,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:24,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:26,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:26,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:34:26,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:30,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:34:30,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:34:31,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:34:36,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:37,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:39,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:40,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:34:40,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:45,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:34:45,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:34:46,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:34:51,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:52,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:34:54,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:54,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"), text_chatting)",Chrome 79.0.3945.88,,,2019-12-28 20:34:54,,,PASSED
+"submit(findTestObject("Page_Mattermost-Message-And-MemberManagement/textarea_Write to tung_fake_post_textbox"))",Chrome 79.0.3945.88,,,2019-12-28 20:34:57,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:34:57,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Change status to active",Chrome 79.0.3945.88,,,2019-12-28 20:34:58,2019-12-28 20:35:08,10.068s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:34:58,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:35:03,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:35:04,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:35:04,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:35:05,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/span_cs300_status status-edit edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:05,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/button_Online"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:07,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:35:07,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Go to member management",Chrome 79.0.3945.88,,,2019-12-28 20:35:08,2019-12-28 20:35:18,10.093s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:35:08,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:35:13,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:35:13,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:35:14,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:35:14,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_conga_style--none sidebar-header-dro_3e6bb1"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:15,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/button_View Members"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:16,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_Close"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:16,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:35:17,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Go to integration",Chrome 79.0.3945.88,,,2019-12-28 20:35:18,2019-12-28 20:35:33,15.765s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:35:18,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/")",Chrome 79.0.3945.88,,,2019-12-28 20:35:24,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "huunghia160799@gmail.com")",Chrome 79.0.3945.88,,,2019-12-28 20:35:25,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "5dDHh3xkZ2HksT7UmrBd0Q==")",Chrome 79.0.3945.88,,,2019-12-28 20:35:27,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:35:28,,,PASSED
+"click(findTestObject("Page_Town Square - cs300 Mattermost/button_huunghia160799_style--none sidebar-h_6d0fe3"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:28,,,PASSED
+"click(findTestObject("Object Repository/Page_Town Square - cs300 Mattermost/a_Integrations"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:32,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:35:33,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Open Help page",Chrome 79.0.3945.88,,,2019-12-28 20:35:34,2019-12-28 20:35:45,11.341s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:35:34,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:35:39,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:35:40,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:35:41,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:35:41,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_conga_style--none sidebar-header-dro_3e6bb1"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:41,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/a_Help"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:44,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:35:44,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Go to report",Chrome 79.0.3945.88,,,2019-12-28 20:35:45,2019-12-28 20:35:56,11.21s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:35:45,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:35:50,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:35:51,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:35:52,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:35:52,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_conga_style--none sidebar-header-dro_3e6bb1"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:52,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/a_Report a Problem"))",Chrome 79.0.3945.88,,,2019-12-28 20:35:54,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:35:55,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Go to Dowload page",Chrome 79.0.3945.88,,,2019-12-28 20:35:57,2019-12-28 20:36:08,11.904s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:35:57,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:36:02,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:36:03,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:36:04,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:04,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_conga_style--none sidebar-header-dro_3e6bb1"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:05,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/a_Download Apps"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:07,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:36:07,,,PASSED
+,,,,,,,
+"Test Cases/App Settings/Viewing shortcut must succeed",Chrome 79.0.3945.88,,,2019-12-28 20:36:08,2019-12-28 20:36:20,12.794s,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:36:08,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/login")",Chrome 79.0.3945.88,,,2019-12-28 20:36:14,,,PASSED
+"setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "conga")",Chrome 79.0.3945.88,,,2019-12-28 20:36:16,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "Tla7hWujGhI=")",Chrome 79.0.3945.88,,,2019-12-28 20:36:17,,,PASSED
+"sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER))",Chrome 79.0.3945.88,,,2019-12-28 20:36:17,,,PASSED
+"click(findTestObject("Page_(1)  Town Square - cs300 Mattermost/button_conga_style--none sidebar-header-dro_3e6bb1"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:17,,,PASSED
+"click(findTestObject("Object Repository/Page_(1)  Town Square - cs300 Mattermost/button_Keyboard Shortcuts"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:20,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:36:20,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/ChangeNotificationSoundOff",Chrome 79.0.3945.88,,,2019-12-28 20:36:21,2019-12-28 20:36:58,37.107s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:36:21,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:36:21,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:36:21,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:36:26,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:27,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:29,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:29,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:29,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:31,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:31,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:32,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_Off"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:36:32,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:32,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:36:32,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:36:32,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:36:33,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:36:38,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:39,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:41,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:41,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:41,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:43,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:44,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:44,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_Off"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:36:44,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:45,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:36:45,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:36:45,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:36:45,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:36:51,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:51,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:36:53,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:53,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:53,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:57,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_Off"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:36:57,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:36:57,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:36:57,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:36:57,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/Edit Position",Chrome 79.0.3945.88,,,2019-12-28 20:36:58,2019-12-28 20:37:33,35.811s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:36:58,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:36:58,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:36:58,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:37:03,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:05,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:06,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:07,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:07,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:09,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Position"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:09,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Position_position"), data.internallyGetValue("Position", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:10,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:10,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:37:11,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:37:11,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:37:11,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:37:16,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:17,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:19,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:19,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:19,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Position"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Position_position"), data.internallyGetValue("Position", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:37:21,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:37:22,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:37:27,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:28,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:29,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:30,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:30,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:32,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Position"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:32,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Position_position"), data.internallyGetValue("Position", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:33,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:33,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:37:33,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:37:33,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/Edit UserName",Chrome 79.0.3945.88,,,2019-12-28 20:37:34,2019-12-28 20:38:19,45.69s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:37:34,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:37:34,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:37:34,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:37:39,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:40,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:42,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:44,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Username"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:45,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Username_username"), data.internallyGetValue("UserName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:45,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:45,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:37:45,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:37:45,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:37:46,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:37:53,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:54,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:37:56,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:57,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:37:59,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Username"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:00,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Username_username"), data.internallyGetValue("UserName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:00,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:01,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:38:02,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:38:02,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:38:03,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:38:09,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:11,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:15,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:15,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:15,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:17,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Username"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:18,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Username_username"), data.internallyGetValue("UserName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:18,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:18,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/ChangeNotificationSoundOn",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,2019-12-28 20:38:57,38.15s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:38:19,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:38:25,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:26,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:28,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:28,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:28,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:30,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:30,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:30,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_On"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:38:31,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:31,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:38:31,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:38:31,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:38:32,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:38:37,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:38,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:40,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:40,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:40,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_On"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:38:43,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:43,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:38:43,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:38:43,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:38:44,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:38:49,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:50,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:38:51,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:52,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:52,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:55,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Desktop notifications"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_On"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:38:56,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/ChangeClockDisPlay",Chrome 79.0.3945.88,,,2019-12-28 20:38:58,2019-12-28 20:39:40,42.076s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:38:58,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:38:58,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:38:58,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:39:03,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:04,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:07,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:07,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:07,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:09,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:10,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Clock Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:10,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_24-hour clock (example 1600)"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:39:10,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:11,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:39:11,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:39:11,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:39:12,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:39:17,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:18,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:20,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:20,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:20,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:22,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:23,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Clock Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:23,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_24-hour clock (example 1600)"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:39:23,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:24,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:39:24,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:39:24,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:39:25,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:39:30,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:33,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:35,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:35,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:35,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:37,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Clock Display"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/label_24-hour clock (example 1600)"), STOP_ON_FAILURE)",Chrome 79.0.3945.88,,,2019-12-28 20:39:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:38,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:39:39,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:39:39,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/Edit Email",Chrome 79.0.3945.88,,,2019-12-28 20:39:40,2019-12-28 20:40:19,39.45s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:39:40,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:39:40,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:39:40,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:39:45,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:46,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:47,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:47,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:48,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:50,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:50,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:51,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:51,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:39:51,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:39:52,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:39:52,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:39:52,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:39:57,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:39:59,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:00,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:01,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:01,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:03,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:03,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:03,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:04,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:04,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:40:04,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:40:04,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:40:05,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:40:10,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:12,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:14,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:14,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:15,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:17,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Edit"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:17,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:17,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:18,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:18,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:40:18,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:40:18,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/Edit Full Name",Chrome 79.0.3945.88,,,2019-12-28 20:40:19,2019-12-28 20:40:59,40.126s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:40:19,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:40:19,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:40:19,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:40:24,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:25,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:27,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:27,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:27,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:31,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Full Name"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:31,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:32,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:32,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:32,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:40:33,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:40:33,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:40:34,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:40:39,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:40,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:42,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:42,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:44,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Full Name"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:44,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:45,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:45,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:45,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:40:45,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:40:45,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:40:46,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:40:51,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:52,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:54,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:54,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:54,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:57,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Full Name"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:57,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_First Name_firstName"), data.internallyGetValue("FirstName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:57,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Last Name_lastName"), data.internallyGetValue("LastName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:40:58,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:40:58,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:40:58,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:40:58,,,PASSED
+,,,,,,,
+"Test Cases/Account Setting/Edit NickName",Chrome 79.0.3945.88,,,2019-12-28 20:41:00,2019-12-28 20:41:41,41.195s,PASSED
+"data = findTestData("Data_In_Test_AccountSettings")",Chrome 79.0.3945.88,,,2019-12-28 20:41:00,,,PASSED
+"for (def index : (0..(data.getRowNumbers() - 1)))",Chrome 79.0.3945.88,,,2019-12-28 20:41:00,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:41:00,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:41:05,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:05,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:07,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:08,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:08,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:12,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Nickname"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:13,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Nickname_nickname"), data.internallyGetValue("NickName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:14,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:14,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:41:15,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:41:15,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:41:16,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:41:21,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:22,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:24,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:24,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:25,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:27,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Nickname"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:27,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Nickname_nickname"), data.internallyGetValue("NickName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:27,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:27,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:41:28,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:41:28,,,PASSED
+"openBrowser("")",Chrome 79.0.3945.88,,,2019-12-28 20:41:28,,,PASSED
+"navigateToUrl("http://10.242.158.30:8065/cs300/channels/cs300_test")",Chrome 79.0.3945.88,,,2019-12-28 20:41:33,,,PASSED
+"setText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_username"), data.internallyGetValue("account", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:34,,,PASSED
+"setEncryptedText(findTestObject("Page_Mattermost-Message-And-MemberManagement/input_password"), data.internallyGetValue("password", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:36,,,PASSED
+"click(findTestObject("Page_Mattermost/span_Sign in"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:36,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:36,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/button_Account Settings"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:38,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/div_Nickname"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:39,,,PASSED
+"setText(findTestObject("Page_Mattermost-AccountSetting/input_Nickname_nickname"), data.internallyGetValue("NickName", index))",Chrome 79.0.3945.88,,,2019-12-28 20:41:39,,,PASSED
+"click(findTestObject("Page_Mattermost-AccountSetting/span_Save"))",Chrome 79.0.3945.88,,,2019-12-28 20:41:39,,,PASSED
+"waitForPageLoad(0)",Chrome 79.0.3945.88,,,2019-12-28 20:41:39,,,PASSED
+"closeBrowser()",Chrome 79.0.3945.88,,,2019-12-28 20:41:40,,,PASSED

@@ -1,0 +1,338 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:41,17m - 59.297s,FAILED
+,,,,,,,
+Test Cases/API/lay_thong_tin_community_mac_dinh,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,3.347s,PASSED
+"response = sendRequest(findTestObject(""Community/get_default_comunity"", [""slugs"":""spectrum""]))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,2.534s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.020s,PASSED
+"verifyElementPropertyValue(response, ""data.community.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.096s,PASSED
+"verifyElementPropertyValue(response, ""data.community.name"", ""Spectrum"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.045s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_user_bang_username,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.324s,PASSED
+"response = sendRequest(findTestObject(""User/Get_user_by_username""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.050s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.004s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_user_hien-tai,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.231s,PASSED
+"response = sendRequest(findTestObject(""User/get_current_user""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.033s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.002s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_community_setting,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.492s,PASSED
+"response = sendRequest(findTestObject(""Community/get_community_setting""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.308s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data.community.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.014s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_channel_member_connection,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.325s,PASSED
+"response = sendRequest(findTestObject(""Channel/get_channel_member_connection""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.048s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.025s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.memberConnection.pageInfo.hasNextPage"", true)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.016s,PASSED
+,,,,,,,
+Test Cases/API/lay_everything_threads,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.351s,PASSED
+"response = sendRequest(findTestObject(""User/get_everything_threads""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.037s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.user"", null)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.013s,PASSED
+,,,,,,,
+Test Cases/API/lay_notifications,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.283s,PASSED
+"response = sendRequest(findTestObject(""Notification/get_notifications""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.023s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.005s,PASSED
+"verifyElementPropertyValue(response, ""data.notifications"", null)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.034s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_channel_mac_dinh,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.255s,PASSED
+"response = sendRequest(findTestObject(""Channel/get_default_channel""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.022s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.name"", ""General"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.015s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_channel_setting,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.277s,PASSED
+"response = sendRequest(findTestObject(""Channel/get_channel_setting""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.025s,PASSED
+"verifyElementPropertyValue(response, ""data.channel.slug"", ""general"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.023s,PASSED
+,,,,,,,
+Test Cases/API/lay_thong_tin_community_channel_connection,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.389s,PASSED
+"response = sendRequest(findTestObject(""Community/get_community_channel_connection""))",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.054s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data.community.id"", ""1"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.022s,PASSED
+"verifyElementPropertyValue(response, ""data.community.name"", ""Spectrum"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.017s,PASSED
+,,,,,,,
+Test Cases/WEB/Dang_ky_github_voi_dataset,Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:24,1m - 8.294s,PASSED
+"data = findTestData(""Data Files/Github_accounts"")",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:23,0.019s,PASSED
+"for ([i = 1, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:23,5/19/2019 0:24,1m - 8.033s,PASSED
+,,,,,,,
+Test Cases/WEB/Dang_ky_voi_dataset,Chrome 74.0.3729.157,,,5/19/2019 0:24,5/19/2019 0:25,1m - 1.425s,PASSED
+"data = findTestData(""Twitter_account"")",Chrome 74.0.3729.157,,,5/19/2019 0:24,5/19/2019 0:24,0.004s,PASSED
+"for ([i = 0, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:24,5/19/2019 0:25,1m - 1.139s,PASSED
+,,,,,,,
+Test Cases/WEB/Dang_ky,Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:26,17.680s,PASSED
+"openBrowser(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,2.214s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,0.224s,PASSED
+"click(findTestObject(""button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,1.228s,PASSED
+"click(findTestObject(""Object Repository/Login_twitter/div_twitterSign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,1.675s,PASSED
+"setText(findTestObject(""Object Repository/Login_twitter/input_Log in to Twitter_sessionusername_or_email""), ""demokatalon0601"")",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,0.258s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_twitter/input_Log in to Twitter_sessionpassword""), ""5BdNnhZ8tjFR5YsqiP2dYQ=="")",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,0.191s,PASSED
+"click(findTestObject(""Object Repository/Login_twitter/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:25,2.786s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Spectrum/button_Save and Continue""), 5, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:25,5/19/2019 0:26,6.453s,PASSED
+"navigateToUrl(""http://localhost:3000/me/settings"")",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,0.691s,PASSED
+"click(findTestObject(""Page_My settings/button_Log out""))",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,1.542s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,0.186s,PASSED
+,,,,,,,
+Test Cases/WEB/Comment_spectrum_post,Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,47.513s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,17.660s,PASSED
+"data = findTestData(""Comments"")",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,0.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/a_Nulla nemo_style__InboxLinkWrapper-q7eler-1 iENQxs""))",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,19.676s,PASSED
+"for ([i = 0, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,8.725s,PASSED
+delay(1),Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,1.008s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:26,0.142s,PASSED
+,,,,,,,
+Test Cases/WEB/Xem_thong_tin_profile,Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:27,21.722s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:26,5/19/2019 0:27,20.187s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,0.519s,PASSED
+"click(findTestObject(""Object Repository/Page_demokatalon0601  demokatalon0601/h1_demokatalon0601""))",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,0.808s,PASSED
+"verifyElementPresent(findTestObject(""Page_demokatalon0601  demokatalon0601/div_Online now""), 0)",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,0.032s,PASSED
+"click(findTestObject(""Object Repository/Page_demokatalon0601  demokatalon0601/div_Online now""))",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,0.002s,NOT_RUN
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/WEB/Tham_gia_channel,Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:28,46.702s,FAILED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:27,20.561s,PASSED
+"if (verifyElementNotVisible(findTestObject(""Object Repository/Page_Spectrum  General/svg_notification""), OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:27,5/19/2019 0:28,25.688s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_xuat""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,0.235s,FAILED
+,,,,,,,
+Test Cases/WEB/Sort_community_post,Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,22.111s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,21.539s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Spectrum community/select_LatestPopular""), ""trending"", true)",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,0.184s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,0.167s,PASSED
+,,,,,,,
+Test Cases/WEB/Tao_moi_community,Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:29,52.846s,FAILED
+date = new java.util.Date(),Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,0.005s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,19.630s,PASSED
+"navigateToUrl(""http://localhost:3000/new/community"")",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,0.835s,PASSED
+"setText(findTestObject(""Page_New community/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy (2) (1) (1)""), ""Spec-"" + getTime().toString())",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:28,1.089s,PASSED
+"setText(findTestObject(""Page_New community/textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk (2) (1) (1)""), ""Hello-"" + getTime().toString())",Chrome 74.0.3729.157,,,5/19/2019 0:28,5/19/2019 0:29,31.139s,FAILED
+,,,,,,,
+Test Cases/WEB/Cap_nhat_community,Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,6.599s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.520s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.066s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum (11)""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.094s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub (7)""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.517s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login (7)""), ""test.spectrum.katalon@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.310s,FAILED
+,,,,,,,
+Test Cases/WEB/Dang_nhap,Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,20.977s,PASSED
+"openBrowser(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,2.599s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.218s,PASSED
+"click(findTestObject(""Object Repository/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.309s,PASSED
+"click(findTestObject(""Login_twitter/div_twitterSign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.628s,PASSED
+"setText(findTestObject(""Login_twitter/input_Log in to Twitter_sessionusername_or_email""), ""demokatalon0601"")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.136s,PASSED
+"setEncryptedText(findTestObject(""Login_twitter/input_Log in to Twitter_sessionpassword""), ""5BdNnhZ8tjFR5YsqiP2dYQ=="")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.092s,PASSED
+"click(findTestObject(""Login_twitter/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,2.568s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Spectrum/button_Save and Continue""), 3, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,5.606s,PASSED
+delay(3),Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,3.006s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Explore/button_Join community""), 3, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,3.764s,PASSED
+"verifyElementPresent(findTestObject(""Page_Explore/a_Profile""), 3)",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.034s,PASSED
+,,,,,,,
+Test Cases/WEB/Dang_xuat,Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,3.269s,PASSED
+"navigateToUrl(""http://localhost:3000/me"")",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.833s,PASSED
+"click(findTestObject(""Object Repository/Page_demokatalon0601  demokatalon0601/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.064s,PASSED
+"click(findTestObject(""Page_My settings/button_Log out""))",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,1.208s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:29,0.155s,PASSED
+,,,,,,,
+Test Cases/WEB/Tao_post,Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:30,1m - 3.679s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:29,5/19/2019 0:30,19.864s,PASSED
+"data = findTestData(""Posts"")",Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,0.003s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,0.000s,PASSED
+"for ([i = 0, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,39.719s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_xuat""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,3.949s,PASSED
+,,,,,,,
+Test Cases/WEB/Dang_bai_community,Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:33,2m - 32.627s,PASSED
+"data = findTestData(""Bai_dang"")",Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,0.004s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:30,0.001s,PASSED
+"for ([i = 0, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:30,5/19/2019 0:33,2m - 32.413s,PASSED
+,,,,,,,
+Test Cases/WEB/Kiem_tra_man_hinh_setting,Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,20.483s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,18.415s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.377s,PASSED
+"click(findTestObject(""Page_demokatalon0601  demokatalon0601/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.636s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/h1_My Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.589s,PASSED
+"verifyElementText(findTestObject(""Page_My settings/h1_My Settings""), ""My Settings"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.035s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/h3_Profile Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.065s,PASSED
+"verifyElementText(findTestObject(""Page_My settings/h3_Profile Settings""), ""Profile Settings"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.029s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/h3_Delete my account""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.049s,PASSED
+"verifyElementText(findTestObject(""Page_My settings/h3_Delete my account""), ""Delete my account"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.026s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.126s,PASSED
+,,,,,,,
+Test Cases/WEB/Login_github,Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,7.072s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.227s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.219s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.857s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up (4)""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.007s,PASSED
+"click(findTestObject(""Page_Spectrum/div_githubSign in with GitHub (4)""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.311s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""fbh4g5hfddfghj@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.185s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""rUjhC/FHCIBazbHTL3y31Q=="")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.114s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.941s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.120s,PASSED
+,,,,,,,
+Test Cases/WEB/Login_google,Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:34,12.101s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.088s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.217s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.826s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/button_Log in or sign up""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/div_googleSign in with Google""))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.345s,PASSED
+"setText(findTestObject(""Page_ng nhp - Ti khon Google/input_Spectrum_identifier""), ""test.spectrum.katalon@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,1.698s,PASSED
+"sendKeys(findTestObject(""Page_ng nhp - Ti khon Google/input_Spectrum_identifier""), Keys.chord(ENTER))",Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:33,0.072s,PASSED
+delay(3),Chrome 74.0.3729.157,,,5/19/2019 0:33,5/19/2019 0:34,3.002s,PASSED
+"setEncryptedText(findTestObject(""Page_ng nhp - Ti khon Google/input_Qu nhiu ln th khng thnh cng_password""), ""rUjhC/FHCIBazbHTL3y31Q=="")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.134s,PASSED
+"sendKeys(findTestObject(""Page_ng nhp - Ti khon Google/input_Qu nhiu ln th khng thnh cng_password""), Keys.chord(ENTER))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.067s,PASSED
+delay(3),Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,3.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Spectrum/button_Save and Continue""), 5, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.544s,PASSED
+,,,,,,,
+Test Cases/WEB/Roi_khoi_community,Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,23.576s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,19.499s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/a_Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.550s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Leave community""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.154s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Leave Community (1)""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.113s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_xuat""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,3.161s,PASSED
+,,,,,,,
+Test Cases/WEB/Tham_gia_community,Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,17.783s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,14.695s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Explore/button_Join community""), 5, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.059s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_xuat""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,2.937s,PASSED
+,,,,,,,
+Test Cases/WEB/Login_twitter,Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,11.662s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,1.108s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.223s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.841s,PASSED
+"click(findTestObject(""Login_twitter/button_Log in or sign up""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.998s,PASSED
+"click(findTestObject(""Login_twitter/div_twitterSign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,1.600s,PASSED
+"setText(findTestObject(""Login_twitter/input_Log in to Twitter_sessionusername_or_email""), ""demokatalon0601"")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.158s,PASSED
+"setEncryptedText(findTestObject(""Login_twitter/input_Log in to Twitter_sessionpassword""), ""5BdNnhZ8tjFR5YsqiP2dYQ=="")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.097s,PASSED
+"click(findTestObject(""Login_twitter/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,2.451s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,3.249s,PASSED
+"click(findTestObject(""Page_demokatalon0601  demokatalon0601/h1_demokatalon0601""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.600s,PASSED
+"check(findTestObject(""Page_demokatalon0601  demokatalon0601/h1_demokatalon0601""))",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.052s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:34,0.131s,PASSED
+,,,,,,,
+Test Cases/WEB/Home Page/Kiem_tra_nut_GetStarted,Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:35,5.574s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:34,5/19/2019 0:35,1.084s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.927s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/a_Features""))",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,1.091s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum  Features/button_Get started""))",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.205s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/h1_Sign in to get started""))",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.046s,PASSED
+"verifyElementText(findTestObject(""Page_Spectrum/h1_Sign in to get started""), ""Sign in to get started"")",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.027s,PASSED
+delay(2),Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,2.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.105s,PASSED
+,,,,,,,
+Test Cases/WEB/Xem_notifications,Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,19.124s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,18.632s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/a_notificationNotifications""))",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.424s,PASSED
+getUrl(),Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/WEB/Cap_nhat_bai_dang_community,Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,19.496s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,19.024s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN (1)""))",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:35,0.368s,PASSED
+,,,,,,,
+Test Cases/WEB/Like_bai_dang,Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:36,50.729s,FAILED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:35,5/19/2019 0:36,18.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/post""))",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,31.802s,FAILED
+,,,,,,,
+Test Cases/WEB/Xac_nhan_email,Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,25.774s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,22.301s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.545s,PASSED
+"click(findTestObject(""Page_demokatalon0601  demokatalon0601/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Page_My settings/input_Email Address_style__StyledInput-sc-17zryot-2 jHXlSy""), ""thanhdemoapp@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.891s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/button_Send""))",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.135s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/button_Log out""))",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.941s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.166s,PASSED
+,,,,,,,
+Test Cases/WEB/Xoa_member_khoi_community,Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.162s,PASSED
+return null,Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:36,0.000s,PASSED
+,,,,,,,
+Test Cases/WEB/Xoa_community,Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:37,29.188s,FAILED
+"callTestCase(findTestCase(""WEB/Tao_moi_community""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:36,5/19/2019 0:37,29.035s,FAILED
+,,,,,,,
+Test Cases/WEB/Xoa_comment_comunity,Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,23.913s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,20.612s,PASSED
+"click(findTestObject(""Page_Spectrum community/a_Temporibus eum magnam_style__InboxLinkWrapper-q7eler-1 iENQxs""))",Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,0.945s,PASSED
+"setText(findTestObject(""Page_Voluptas magnam  Spectrum/textarea_No messages yet_style__Input-yy8ipz-4__input""), ""test-delete"")",Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,1.195s,PASSED
+"click(findTestObject(""Page_Voluptas magnam  Spectrum/button_Send""))",Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,0.708s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:37,0.307s,PASSED
+,,,,,,,
+Test Cases/WEB/Gui_tin_nhan,Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:38,36.113s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_nhap""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:37,5/19/2019 0:38,20.869s,PASSED
+"data = findTestData(""Tin_nhan"")",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Explore/button_Join community""), 5, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,5.863s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/a_Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.702s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Message""))",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.644s,PASSED
+"for ([i = 0, i < data.getRowNumbers(), (i++)])",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,4.450s,PASSED
+"callTestCase(findTestCase(""WEB/Dang_xuat""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,3.431s,PASSED
+,,,,,,,
+Test Cases/WEB/Home Page/Kiem_tra_nut_ExploreCommunities,Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,5.659s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,1.113s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.946s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/button_Explore communities""))",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,1.097s,PASSED
+"click(findTestObject(""Object Repository/Page_Explore/h2_Find a community""))",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.181s,PASSED
+"verifyElementText(findTestObject(""Page_Explore/h2_Find a community""), ""Find a community"")",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.032s,PASSED
+delay(2),Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,2.003s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:38,0.128s,PASSED
+,,,,,,,
+Test Cases/WEB/Update_profile/Update_profile_username,Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:39,22.958s,PASSED
+"callTestCase(findTestCase(""WEB/Xem_thong_tin_profile""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:38,5/19/2019 0:39,21.672s,PASSED
+"click(findTestObject(""Page_Demo  demokatalon/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.292s,PASSED
+"click(findTestObject(""Page_My settings/a_Profile""))",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.598s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo  demokatalon06/div_demokatalon06""), 0)",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.043s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.127s,PASSED
+,,,,,,,
+Test Cases/WEB/Update_profile/Update_profile_name,Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,22.184s,PASSED
+"callTestCase(findTestCase(""WEB/Xem_thong_tin_profile""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,20.885s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo  demokatalon0601/button_Settings (3) (1)""))",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.221s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/a_Profile""))",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.764s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo  demokatalon0601/h1_Demo""), 0)",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.085s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:39,0.145s,PASSED
+,,,,,,,
+Test Cases/WEB/Update_profile/Update_profile_bio,Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:40,24.348s,PASSED
+"callTestCase(findTestCase(""WEB/Xem_thong_tin_profile""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:39,5/19/2019 0:40,21.878s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo  demokatalon06/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_My settings/textarea_Im a gooddeveloper""), ""I'm a good developer"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.890s,PASSED
+"setText(findTestObject(""Object Repository/Page_My settings/input_Email_style__StyledInput-sc-17zryot-2 jHXlSy""), ""phuongthao@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/button_Save""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.098s,PASSED
+"click(findTestObject(""Object Repository/Page_My settings/a_Profile""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.307s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo  demokatalon06/p_Im a good developer""), 0)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.257s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.147s,PASSED
+,,,,,,,
+Test Cases/WEB/Update_profile/update_profile_your_website,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,23.844s,PASSED
+"callTestCase(findTestCase(""WEB/Xem_thong_tin_profile""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,21.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo  demokatalon06/button_Settings""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.179s,PASSED
+"setText(findTestObject(""Page_My settings/input_Optional Add your website_style__StyledInput-sc-17zryot-2 jHXlSy""), ""www.demokatalon.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.848s,PASSED
+"setText(findTestObject(""Page_My settings/input_Email_style__StyledInput-sc-17zryot-2 jHXlSy""), ""phuongthao@gmail.com"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.267s,PASSED
+"click(findTestObject(""Page_My settings/button_Save""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.097s,PASSED
+"click(findTestObject(""Page_My settings/a_Profile""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.592s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo  demokatalon06/a_link wwwdemokataloncom""), 0)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.059s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.136s,PASSED
+,,,,,,,
+Test Cases/WEB/Xoa_tai_khoan,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,10.253s,PASSED
+"openBrowser(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,2.390s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.218s,PASSED
+"click(findTestObject(""button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.778s,PASSED
+"click(findTestObject(""Object Repository/Login_twitter/div_twitterSign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,1.630s,PASSED
+"setText(findTestObject(""Object Repository/Login_twitter/input_Log in to Twitter_sessionusername_or_email""), ""demokatalon0601"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.161s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_twitter/input_Log in to Twitter_sessionpassword""), ""5BdNnhZ8tjFR5YsqiP2dYQ=="")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.101s,PASSED
+"click(findTestObject(""Object Repository/Login_twitter/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,2.671s,PASSED
+"navigateToUrl(""http://localhost:3000/me/settings"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.915s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_My settings/button_Delete my account""), 5, OPTIONAL))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.983s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.288s,PASSED
+,,,,,,,
+Test Cases/API/search_communites,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,3.314s,PASSED
+"res = sendRequest(findTestObject(""Community/search_communites""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,3.237s,PASSED
+"verifyResponseStatusCode(res, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.002s,PASSED
+,,,,,,,
+Test Cases/API/search_threads,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,6.354s,PASSED
+"res = sendRequest(findTestObject(""Community/search_threads""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,6.275s,PASSED
+"verifyResponseStatusCode(res, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.001s,PASSED
+,,,,,,,
+Test Cases/API/get_message_by_id,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.136s,PASSED
+"res = sendRequest(findTestObject(""Community/get_message""))",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.037s,PASSED
+"verifyResponseStatusCode(res, 200)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.001s,PASSED
+"verifyElementPropertyValue(res, ""data.message.id"", ""3"")",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:40,0.011s,PASSED
+,,,,,,,
+Test Cases/WEB/Cap_nhat_channel,Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:41,44.830s,FAILED
+"callTestCase(findTestCase(""WEB/Tao_moi_community""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 0:40,5/19/2019 0:41,44.723s,FAILED
+,,,,,,,
+Test Cases/WEB/Xoa_channel,Chrome 74.0.3729.157,,,5/19/2019 0:41,5/19/2019 0:41,0.074s,PASSED
+return null,Chrome 74.0.3729.157,,,5/19/2019 0:41,5/19/2019 0:41,0.000s,PASSED

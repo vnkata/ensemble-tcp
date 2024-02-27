@@ -1,0 +1,353 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 97.0.4692.71,,,2022-01-15 08:40:04,2022-01-15 11:00:28,2h - 20m - 23.973s,PASSED
+,,,,,,,
+Test Cases/1.Sign_in_Pass,Chrome 97.0.4692.71,,,2022-01-15 08:40:04,2022-01-15 08:45:49,5m - 44.995s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 08:40:05,2022-01-15 08:40:08,3.571s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 08:40:08,2022-01-15 08:40:11,2.123s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 08:40:11,2022-01-15 08:40:15,4.245s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 08:40:15,2022-01-15 08:41:15,1m - 0.514s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 08:41:15,2022-01-15 08:41:46,30.269s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 08:41:46,2022-01-15 08:42:16,30.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 08:42:16,2022-01-15 08:42:47,31.390s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 08:42:47,2022-01-15 08:43:17,30.131s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 08:43:17,2022-01-15 08:43:48,30.302s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 08:43:48,2022-01-15 08:44:18,30.134s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 08:44:18,2022-01-15 08:44:48,30.395s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 08:44:48,2022-01-15 08:45:18,30.308s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75""))",Chrome 97.0.4692.71,,,2022-01-15 08:45:18,2022-01-15 08:45:49,30.144s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 08:45:49,2022-01-15 08:45:49,0.684s,PASSED
+,,,,,,,
+Test Cases/2.Sign_in_Fail,Chrome 97.0.4692.71,Sign in Fail,,2022-01-15 08:45:49,2022-01-15 08:48:24,2m - 34.696s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 08:45:50,2022-01-15 08:45:51,1.144s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 08:45:51,2022-01-15 08:45:52,1.447s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 08:45:52,2022-01-15 08:46:23,30.532s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptsajfk"")",Chrome 97.0.4692.71,,,2022-01-15 08:46:23,2022-01-15 08:47:23,1m - 0.253s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""nLM6O7ELZdU="")",Chrome 97.0.4692.71,,,2022-01-15 08:47:23,2022-01-15 08:47:53,30.201s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 08:47:53,2022-01-15 08:48:23,30.158s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 08:48:23,2022-01-15 08:48:24,0.673s,PASSED
+,,,,,,,
+Test Cases/3.Log_out,Chrome 97.0.4692.71,,,2022-01-15 08:48:24,2022-01-15 08:54:31,6m - 6.626s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 08:48:24,2022-01-15 08:48:25,1.176s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 08:48:25,2022-01-15 08:48:27,1.486s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 08:48:27,2022-01-15 08:48:57,30.529s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 08:48:57,2022-01-15 08:49:58,1m - 0.245s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 08:49:58,2022-01-15 08:50:28,30.215s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 08:50:28,2022-01-15 08:50:58,30.158s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 08:50:58,2022-01-15 08:51:28,30.151s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 08:51:28,2022-01-15 08:51:59,30.309s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 08:51:59,2022-01-15 08:52:29,30.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 08:52:29,2022-01-15 08:52:59,30.498s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 08:52:59,2022-01-15 08:53:30,30.378s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Sign out""))",Chrome 97.0.4692.71,,,2022-01-15 08:53:30,2022-01-15 08:54:00,30.155s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Sign out""))",Chrome 97.0.4692.71,,,2022-01-15 08:54:00,2022-01-15 08:54:30,30.152s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 08:54:30,2022-01-15 08:54:31,0.733s,PASSED
+,,,,,,,
+Test Cases/4.Create_private_room,Chrome 97.0.4692.71,,,2022-01-15 08:54:31,2022-01-15 09:02:37,8m - 6.741s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 08:54:31,2022-01-15 08:54:32,1.161s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 08:54:32,2022-01-15 08:54:33,1.415s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 08:54:33,2022-01-15 08:55:04,30.540s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 08:55:04,2022-01-15 08:56:04,1m - 0.244s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 08:56:04,2022-01-15 08:56:34,30.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 08:56:34,2022-01-15 08:57:05,30.151s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 08:57:05,2022-01-15 08:57:35,30.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/p_Use your Security Key to continue""))",Chrome 97.0.4692.71,,,2022-01-15 08:57:35,2022-01-15 08:58:05,30.124s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 08:58:05,2022-01-15 08:58:35,30.299s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 08:58:35,2022-01-15 08:59:05,30.133s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 08:59:05,2022-01-15 08:59:36,30.483s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-15 08:59:36,2022-01-15 09:00:06,30.263s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-15 09:00:06,2022-01-15 09:00:36,30.130s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Create a private room_mx_Field_5""), ""Room1"")",Chrome 97.0.4692.71,,,2022-01-15 09:00:36,2022-01-15 09:01:36,1m - 0.226s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-15 09:01:36,2022-01-15 09:02:07,30.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Empty room/div_Room1""))",Chrome 97.0.4692.71,,,2022-01-15 09:02:07,2022-01-15 09:02:37,30.141s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:02:37,2022-01-15 09:02:37,0.672s,PASSED
+,,,,,,,
+Test Cases/6.Search_join_public_room,Chrome 97.0.4692.71,,,2022-01-15 09:02:37,2022-01-15 09:10:44,8m - 6.845s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:02:38,2022-01-15 09:02:39,1.118s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:02:39,2022-01-15 09:02:40,1.439s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:02:40,2022-01-15 09:03:11,30.548s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:03:11,2022-01-15 09:04:11,1m - 0.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:04:11,2022-01-15 09:04:41,30.203s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:04:41,2022-01-15 09:05:11,30.151s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:05:11,2022-01-15 09:05:41,30.137s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:05:41,2022-01-15 09:06:12,30.306s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:06:12,2022-01-15 09:06:42,30.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:06:42,2022-01-15 09:07:12,30.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-15 09:07:12,2022-01-15 09:07:43,30.255s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Explore public rooms""))",Chrome 97.0.4692.71,,,2022-01-15 09:07:43,2022-01-15 09:08:13,30.144s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Create a new room_dirsearch""), ""haha4"")",Chrome 97.0.4692.71,,,2022-01-15 09:08:13,2022-01-15 09:09:13,1m - 0.263s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_hahahaha4duangaomatrix.org""))",Chrome 97.0.4692.71,,,2022-01-15 09:09:13,2022-01-15 09:09:43,30.135s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Join""))",Chrome 97.0.4692.71,,,2022-01-15 09:09:43,2022-01-15 09:10:13,30.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  haha/div_haha""))",Chrome 97.0.4692.71,,,2022-01-15 09:10:13,2022-01-15 09:10:43,30.143s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:10:43,2022-01-15 09:10:44,0.722s,PASSED
+,,,,,,,
+Test Cases/23.ChangeFronSizeValid,Chrome 97.0.4692.71,,,2022-01-15 09:10:44,2022-01-15 09:17:21,6m - 36.527s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:10:45,2022-01-15 09:10:46,1.175s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:10:46,2022-01-15 09:10:47,1.480s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:10:47,2022-01-15 09:11:18,30.532s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:11:18,2022-01-15 09:12:18,1m - 0.232s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:12:18,2022-01-15 09:12:48,30.199s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:12:48,2022-01-15 09:13:18,30.158s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:13:18,2022-01-15 09:13:48,30.138s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:13:48,2022-01-15 09:14:19,30.308s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:14:19,2022-01-15 09:14:49,30.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:14:49,2022-01-15 09:15:19,30.377s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:15:19,2022-01-15 09:15:50,30.297s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 09:15:50,2022-01-15 09:16:20,30.135s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Appearance""))",Chrome 97.0.4692.71,,,2022-01-15 09:16:20,2022-01-15 09:16:50,30.198s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Aa_mx_Slider_dot mx_Slider_dotActive""))",Chrome 97.0.4692.71,,,2022-01-15 09:16:50,2022-01-15 09:17:20,30.148s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:17:20,2022-01-15 09:17:21,0.674s,PASSED
+,,,,,,,
+Test Cases/24.ChangeDisplayName,Chrome 97.0.4692.71,,,2022-01-15 09:17:21,2022-01-15 09:24:27,7m - 6.711s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:17:21,2022-01-15 09:17:22,1.174s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:17:22,2022-01-15 09:17:24,1.953s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:17:24,2022-01-15 09:17:54,30.167s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:17:54,2022-01-15 09:18:55,1m - 0.262s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:18:55,2022-01-15 09:19:25,30.209s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:19:25,2022-01-15 09:19:55,30.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:19:55,2022-01-15 09:20:25,30.150s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:20:25,2022-01-15 09:20:55,30.324s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:20:55,2022-01-15 09:21:26,30.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:21:26,2022-01-15 09:21:56,30.368s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:21:56,2022-01-15 09:22:26,30.282s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 09:22:26,2022-01-15 09:22:56,30.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Profile_mx_Field_5""), ""ptnha1"")",Chrome 97.0.4692.71,,,2022-01-15 09:22:56,2022-01-15 09:23:57,1m - 0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Save""))",Chrome 97.0.4692.71,,,2022-01-15 09:23:57,2022-01-15 09:24:27,30.121s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:24:27,2022-01-15 09:24:27,0.682s,PASSED
+,,,,,,,
+Test Cases/25.ChangePasswordInvalid,Chrome 97.0.4692.71,,,2022-01-15 09:24:27,2022-01-15 09:32:04,7m - 36.904s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:24:28,2022-01-15 09:24:29,1.168s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:24:29,2022-01-15 09:24:30,1.429s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:24:30,2022-01-15 09:25:01,30.545s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:25:01,2022-01-15 09:26:01,1m - 0.245s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:26:01,2022-01-15 09:26:31,30.199s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:26:31,2022-01-15 09:27:01,30.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:27:01,2022-01-15 09:27:32,30.145s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:27:32,2022-01-15 09:28:02,30.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:28:02,2022-01-15 09:28:32,30.122s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:28:32,2022-01-15 09:29:02,30.369s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:29:02,2022-01-15 09:29:33,30.342s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 09:29:33,2022-01-15 09:30:03,30.140s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Account_mx_Field_7""), ""cH9eeb27K7k="")",Chrome 97.0.4692.71,,,2022-01-15 09:30:03,2022-01-15 09:30:33,30.212s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Current password_mx_Field_8""), ""YYdYgnpZIxc="")",Chrome 97.0.4692.71,,,2022-01-15 09:30:33,2022-01-15 09:31:03,30.196s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_New Password_mx_Field_9""), ""YYdYgnpZIxc="")",Chrome 97.0.4692.71,,,2022-01-15 09:31:03,2022-01-15 09:31:33,30.195s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Change Password""))",Chrome 97.0.4692.71,,,2022-01-15 09:31:33,2022-01-15 09:32:04,30.140s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:32:04,2022-01-15 09:32:04,0.729s,PASSED
+,,,,,,,
+Test Cases/28.EnableDesktopNotificationsForThisSession,Chrome 97.0.4692.71,,,2022-01-15 09:32:04,2022-01-15 09:39:11,7m - 6.740s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:32:05,2022-01-15 09:32:06,1.162s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:32:06,2022-01-15 09:32:07,1.443s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:32:07,2022-01-15 09:32:38,30.539s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:32:38,2022-01-15 09:33:38,1m - 0.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:33:38,2022-01-15 09:34:08,30.208s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:34:08,2022-01-15 09:34:38,30.147s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:34:38,2022-01-15 09:35:09,30.225s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:35:09,2022-01-15 09:35:39,30.320s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:35:39,2022-01-15 09:36:09,30.129s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:36:09,2022-01-15 09:36:39,30.405s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:36:39,2022-01-15 09:37:10,30.290s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Notifications""))",Chrome 97.0.4692.71,,,2022-01-15 09:37:10,2022-01-15 09:37:40,30.127s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd""))",Chrome 97.0.4692.71,,,2022-01-15 09:37:40,2022-01-15 09:38:10,30.213s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd""))",Chrome 97.0.4692.71,,,2022-01-15 09:38:10,2022-01-15 09:38:40,30.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd_1""))",Chrome 97.0.4692.71,,,2022-01-15 09:38:40,2022-01-15 09:39:10,30.123s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:39:10,2022-01-15 09:39:11,0.740s,PASSED
+,,,,,,,
+Test Cases/29.EnableEmailNotifications,Chrome 97.0.4692.71,,,2022-01-15 09:39:11,2022-01-15 09:45:48,6m - 36.697s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:39:11,2022-01-15 09:39:13,1.180s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:39:13,2022-01-15 09:39:14,1.467s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:39:14,2022-01-15 09:39:45,30.566s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:39:45,2022-01-15 09:40:45,1m - 0.248s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:40:45,2022-01-15 09:41:15,30.201s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:41:15,2022-01-15 09:41:45,30.141s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:41:45,2022-01-15 09:42:15,30.139s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:42:15,2022-01-15 09:42:46,30.306s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:42:46,2022-01-15 09:43:16,30.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:43:16,2022-01-15 09:43:46,30.522s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:43:46,2022-01-15 09:44:17,30.336s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Notifications""))",Chrome 97.0.4692.71,,,2022-01-15 09:44:17,2022-01-15 09:44:47,30.140s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593""))",Chrome 97.0.4692.71,,,2022-01-15 09:44:47,2022-01-15 09:45:17,30.162s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593_1""))",Chrome 97.0.4692.71,,,2022-01-15 09:45:17,2022-01-15 09:45:47,30.145s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:45:47,2022-01-15 09:45:48,0.725s,PASSED
+,,,,,,,
+Test Cases/30.ReferencesRoomList,Chrome 97.0.4692.71,,,2022-01-15 09:45:48,2022-01-15 09:53:55,8m - 7.151s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:45:48,2022-01-15 09:45:49,1.157s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:45:49,2022-01-15 09:45:51,1.893s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:45:51,2022-01-15 09:46:21,30.186s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:46:21,2022-01-15 09:47:22,1m - 0.242s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:47:22,2022-01-15 09:47:52,30.211s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:47:52,2022-01-15 09:48:22,30.147s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:48:22,2022-01-15 09:48:52,30.128s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:48:52,2022-01-15 09:49:22,30.349s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:49:22,2022-01-15 09:49:53,30.150s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:49:53,2022-01-15 09:50:23,30.509s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_P""))",Chrome 97.0.4692.71,,,2022-01-15 09:50:23,2022-01-15 09:50:53,30.341s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 09:50:53,2022-01-15 09:51:24,30.140s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Preferences""))",Chrome 97.0.4692.71,,,2022-01-15 09:51:24,2022-01-15 09:51:54,30.182s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_bf3284""))",Chrome 97.0.4692.71,,,2022-01-15 09:51:54,2022-01-15 09:52:24,30.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce""))",Chrome 97.0.4692.71,,,2022-01-15 09:52:24,2022-01-15 09:52:54,30.129s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce""))",Chrome 97.0.4692.71,,,2022-01-15 09:52:54,2022-01-15 09:53:24,30.110s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_concat(All rooms you, , re in will appe_115007""))",Chrome 97.0.4692.71,,,2022-01-15 09:53:24,2022-01-15 09:53:54,30.126s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 09:53:54,2022-01-15 09:53:55,0.725s,PASSED
+,,,,,,,
+Test Cases/31.FAQ,Chrome 97.0.4692.71,,,2022-01-15 09:53:55,2022-01-15 10:02:32,8m - 37.134s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 09:53:55,2022-01-15 09:53:56,1.164s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 09:53:56,2022-01-15 09:53:58,1.454s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 09:53:58,2022-01-15 09:54:28,30.530s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""))",Chrome 97.0.4692.71,,,2022-01-15 09:54:28,2022-01-15 09:54:59,30.159s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 09:54:59,2022-01-15 09:55:59,1m - 0.220s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 09:55:59,2022-01-15 09:56:29,30.208s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 09:56:29,2022-01-15 09:56:59,30.149s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 09:56:59,2022-01-15 09:57:29,30.141s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 09:57:29,2022-01-15 09:58:00,30.317s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 09:58:00,2022-01-15 09:58:30,30.128s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 09:58:30,2022-01-15 09:59:00,30.494s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 09:59:00,2022-01-15 09:59:31,30.350s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 09:59:31,2022-01-15 10:00:01,30.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Help  About""))",Chrome 97.0.4692.71,,,2022-01-15 10:00:01,2022-01-15 10:00:31,30.176s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Keyboard Shortcuts""))",Chrome 97.0.4692.71,,,2022-01-15 10:00:31,2022-01-15 10:01:01,30.126s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Keyboard Shortcuts_mx_AccessibleButton _622478""))",Chrome 97.0.4692.71,,,2022-01-15 10:01:01,2022-01-15 10:01:31,30.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8""))",Chrome 97.0.4692.71,,,2022-01-15 10:01:31,2022-01-15 10:02:01,30.131s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 10:02:01,2022-01-15 10:02:31,30.127s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:02:31,2022-01-15 10:02:32,0.719s,PASSED
+,,,,,,,
+Test Cases/33.SettingVoiceVideo,Chrome 97.0.4692.71,,,2022-01-15 10:02:32,2022-01-15 10:10:39,8m - 6.822s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:02:32,2022-01-15 10:02:34,1.172s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:02:34,2022-01-15 10:02:35,1.396s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:02:35,2022-01-15 10:03:05,30.569s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:03:05,2022-01-15 10:04:06,1m - 0.250s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:04:06,2022-01-15 10:04:36,30.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:04:36,2022-01-15 10:05:06,30.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:05:06,2022-01-15 10:05:36,30.140s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:05:36,2022-01-15 10:06:07,30.311s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:06:07,2022-01-15 10:06:37,30.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:06:37,2022-01-15 10:07:07,30.384s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 10:07:07,2022-01-15 10:07:37,30.295s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 10:07:37,2022-01-15 10:08:08,30.140s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Voice  Video""))",Chrome 97.0.4692.71,,,2022-01-15 10:08:08,2022-01-15 10:08:38,30.155s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd""))",Chrome 97.0.4692.71,,,2022-01-15 10:08:38,2022-01-15 10:09:08,30.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball""))",Chrome 97.0.4692.71,,,2022-01-15 10:09:08,2022-01-15 10:09:38,30.125s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8""))",Chrome 97.0.4692.71,,,2022-01-15 10:09:38,2022-01-15 10:10:08,30.125s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 10:10:08,2022-01-15 10:10:38,30.144s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:10:38,2022-01-15 10:10:39,0.707s,PASSED
+,,,,,,,
+Test Cases/34.ExploreRoom,Chrome 97.0.4692.71,,,2022-01-15 10:10:39,2022-01-15 10:18:15,7m - 36.409s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:10:39,2022-01-15 10:10:40,1.158s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:10:40,2022-01-15 10:10:42,1.452s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:10:42,2022-01-15 10:11:12,30.530s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:11:12,2022-01-15 10:12:13,1m - 0.225s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:12:13,2022-01-15 10:12:43,30.201s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:12:43,2022-01-15 10:13:13,30.150s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:13:13,2022-01-15 10:13:43,30.137s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:13:43,2022-01-15 10:14:13,30.319s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:14:13,2022-01-15 10:14:43,30.137s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:14:43,2022-01-15 10:15:14,30.246s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-15 10:15:14,2022-01-15 10:15:44,30.201s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Create a new room_dirsearch""), ""abc"")",Chrome 97.0.4692.71,,,2022-01-15 10:15:44,2022-01-15 10:16:44,1m - 0.262s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_(matrix.org)""))",Chrome 97.0.4692.71,,,2022-01-15 10:16:44,2022-01-15 10:17:14,30.141s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75""))",Chrome 97.0.4692.71,,,2022-01-15 10:17:14,2022-01-15 10:17:44,30.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4""))",Chrome 97.0.4692.71,,,2022-01-15 10:17:44,2022-01-15 10:18:15,30.136s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:18:15,2022-01-15 10:18:15,0.727s,PASSED
+,,,,,,,
+Test Cases/35.ExpandPeopleBar,Chrome 97.0.4692.71,,,2022-01-15 10:18:15,2022-01-15 10:24:52,6m - 36.548s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:18:16,2022-01-15 10:18:17,1.188s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:18:17,2022-01-15 10:18:18,1.423s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:18:18,2022-01-15 10:18:49,30.529s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:18:49,2022-01-15 10:19:49,1m - 0.238s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:19:49,2022-01-15 10:20:19,30.213s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:20:19,2022-01-15 10:20:49,30.141s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:20:49,2022-01-15 10:21:19,30.130s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:21:19,2022-01-15 10:21:50,30.318s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:21:50,2022-01-15 10:22:20,30.123s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:22:20,2022-01-15 10:22:50,30.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn""))",Chrome 97.0.4692.71,,,2022-01-15 10:22:50,2022-01-15 10:23:21,30.254s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn m_10447f""))",Chrome 97.0.4692.71,,,2022-01-15 10:23:21,2022-01-15 10:23:51,30.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Tr Cao Thin""))",Chrome 97.0.4692.71,,,2022-01-15 10:23:51,2022-01-15 10:24:21,30.133s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/div_Khoa Dng Vn""))",Chrome 97.0.4692.71,,,2022-01-15 10:24:21,2022-01-15 10:24:51,30.225s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:24:51,2022-01-15 10:24:52,0.703s,PASSED
+,,,,,,,
+Test Cases/37.SettingPeople,Chrome 97.0.4692.71,,,2022-01-15 10:24:52,2022-01-15 10:31:58,7m - 6.582s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:24:52,2022-01-15 10:24:53,1.230s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:24:53,2022-01-15 10:24:55,1.418s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:24:55,2022-01-15 10:25:25,30.539s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:25:25,2022-01-15 10:26:26,1m - 0.242s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:26:26,2022-01-15 10:26:56,30.211s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:26:56,2022-01-15 10:27:26,30.142s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:27:26,2022-01-15 10:27:56,30.129s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:27:56,2022-01-15 10:28:26,30.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:28:26,2022-01-15 10:28:56,30.129s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:28:56,2022-01-15 10:29:27,30.373s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Tr Cao Thin""))",Chrome 97.0.4692.71,,,2022-01-15 10:29:27,2022-01-15 10:29:57,30.250s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30""))",Chrome 97.0.4692.71,,,2022-01-15 10:29:57,2022-01-15 10:30:27,30.237s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/span_Settings""))",Chrome 97.0.4692.71,,,2022-01-15 10:30:27,2022-01-15 10:30:57,30.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e""))",Chrome 97.0.4692.71,,,2022-01-15 10:30:57,2022-01-15 10:31:28,30.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin""))",Chrome 97.0.4692.71,,,2022-01-15 10:31:28,2022-01-15 10:31:58,30.138s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:31:58,2022-01-15 10:31:58,0.677s,PASSED
+,,,,,,,
+Test Cases/38.TurnOffOnNotiPeople,Chrome 97.0.4692.71,,,2022-01-15 10:31:58,2022-01-15 10:38:35,6m - 36.412s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:31:59,2022-01-15 10:32:00,1.179s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:32:00,2022-01-15 10:32:01,1.409s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:32:01,2022-01-15 10:32:32,30.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:32:32,2022-01-15 10:33:32,1m - 0.255s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:33:32,2022-01-15 10:34:02,30.204s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:34:02,2022-01-15 10:34:32,30.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:34:32,2022-01-15 10:35:03,30.154s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:35:03,2022-01-15 10:35:33,30.315s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:35:33,2022-01-15 10:36:03,30.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:36:03,2022-01-15 10:36:33,30.386s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Tr Cao Thin""))",Chrome 97.0.4692.71,,,2022-01-15 10:36:33,2022-01-15 10:37:04,30.197s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40""))",Chrome 97.0.4692.71,,,2022-01-15 10:37:04,2022-01-15 10:37:34,30.235s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/span_None""))",Chrome 97.0.4692.71,,,2022-01-15 10:37:34,2022-01-15 10:38:04,30.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  Tr Cao Thin/span_Use default""))",Chrome 97.0.4692.71,,,2022-01-15 10:38:04,2022-01-15 10:38:34,30.128s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:38:34,2022-01-15 10:38:35,0.691s,PASSED
+,,,,,,,
+Test Cases/41.ChangeLanguage,Chrome 97.0.4692.71,,,2022-01-15 10:38:35,2022-01-15 10:49:46,11m - 11.182s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:38:35,2022-01-15 10:38:36,1.172s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:38:36,2022-01-15 10:38:38,1.443s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:38:38,2022-01-15 10:39:08,30.519s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:39:08,2022-01-15 10:40:08,1m - 0.227s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:40:08,2022-01-15 10:40:39,30.232s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:40:39,2022-01-15 10:41:09,30.156s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:41:09,2022-01-15 10:41:39,30.130s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:41:39,2022-01-15 10:42:09,30.319s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:42:09,2022-01-15 10:42:39,30.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:42:39,2022-01-15 10:43:10,30.393s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 10:43:10,2022-01-15 10:43:40,30.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_All settings""))",Chrome 97.0.4692.71,,,2022-01-15 10:43:40,2022-01-15 10:44:10,30.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_English (US)""))",Chrome 97.0.4692.71,,,2022-01-15 10:44:10,2022-01-15 10:44:41,30.295s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689""), ""Ti"")",Chrome 97.0.4692.71,,,2022-01-15 10:44:41,2022-01-15 10:45:41,1m - 0.183s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Ting Vit""))",Chrome 97.0.4692.71,,,2022-01-15 10:45:41,2022-01-15 10:46:12,31.603s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-15 10:46:12,2022-01-15 10:46:43,30.625s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Bo mt  Quyn ring t""))",Chrome 97.0.4692.71,,,2022-01-15 10:46:43,2022-01-15 10:47:13,30.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/span_Tng quan""))",Chrome 97.0.4692.71,,,2022-01-15 10:47:13,2022-01-15 10:47:43,30.274s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Ting Vit_1""))",Chrome 97.0.4692.71,,,2022-01-15 10:47:43,2022-01-15 10:48:14,30.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689""), ""E"")",Chrome 97.0.4692.71,,,2022-01-15 10:48:14,2022-01-15 10:49:14,1m - 0.192s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_English""))",Chrome 97.0.4692.71,,,2022-01-15 10:49:14,2022-01-15 10:49:45,31.604s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:49:45,2022-01-15 10:49:46,0.695s,PASSED
+,,,,,,,
+Test Cases/43.InvalidSecurityKey,Chrome 97.0.4692.71,,,2022-01-15 10:49:46,2022-01-15 10:53:51,4m - 5.262s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:49:46,2022-01-15 10:49:47,1.135s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:49:47,2022-01-15 10:49:49,1.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:49:49,2022-01-15 10:50:20,30.577s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:50:20,2022-01-15 10:51:20,1m - 0.244s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:51:20,2022-01-15 10:51:50,30.212s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:51:50,2022-01-15 10:52:20,30.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:52:20,2022-01-15 10:52:50,30.140s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:52:50,2022-01-15 10:53:20,30.224s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Invalid Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:53:20,2022-01-15 10:53:51,30.135s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 10:53:51,2022-01-15 10:53:51,0.681s,PASSED
+,,,,,,,
+Test Cases/20.Set_favorate_room,Chrome 97.0.4692.71,,,2022-01-15 10:53:51,2022-01-15 11:00:28,6m - 36.606s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-15 10:53:52,2022-01-15 10:53:53,1.168s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-15 10:53:53,2022-01-15 10:53:54,1.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Sign In""))",Chrome 97.0.4692.71,,,2022-01-15 10:53:54,2022-01-15 10:54:25,30.533s,PASSED
+"setText(findTestObject(""Object Repository/Page_Element/input_Sign in with_username""), ""ptnha19"")",Chrome 97.0.4692.71,,,2022-01-15 10:54:25,2022-01-15 10:55:25,1m - 0.250s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Username_password""), ""5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"")",Chrome 97.0.4692.71,,,2022-01-15 10:55:25,2022-01-15 10:55:55,30.207s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-15 10:55:55,2022-01-15 10:56:25,30.147s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-15 10:56:25,2022-01-15 10:56:55,30.129s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Element/input_Security Key_mx_Field_4""), ""PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="")",Chrome 97.0.4692.71,,,2022-01-15 10:56:55,2022-01-15 10:57:26,30.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-15 10:57:26,2022-01-15 10:57:56,30.127s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-15 10:57:56,2022-01-15 10:58:26,30.499s,PASSED
+"click(findTestObject(""Object Repository/Page_Element/div_hehe""))",Chrome 97.0.4692.71,,,2022-01-15 10:58:26,2022-01-15 10:58:57,30.253s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  hehe/div_hehe_mx_RoomHeader_chevron""))",Chrome 97.0.4692.71,,,2022-01-15 10:58:57,2022-01-15 10:59:27,30.266s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  hehe/div_Favorite""))",Chrome 97.0.4692.71,,,2022-01-15 10:59:27,2022-01-15 10:59:57,30.126s,PASSED
+"click(findTestObject(""Object Repository/Page_Element  hehe/div_This room is public_mx_ContextualMenu_b_fc4f75""))",Chrome 97.0.4692.71,,,2022-01-15 10:59:57,2022-01-15 11:00:27,30.139s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-15 11:00:27,2022-01-15 11:00:28,0.720s,PASSED

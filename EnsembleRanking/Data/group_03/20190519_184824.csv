@@ -1,0 +1,287 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Chrome 74.0.3729.157,,,5/19/2019 18:48,5/19/2019 19:21,32m - 38.340s,FAILED
+,,,,,,,
+Test Cases/1512240/3times_LikeAndUnlike,Chrome 74.0.3729.157,Like and Unlike 3 times  expected: Pass,,5/19/2019 18:48,5/19/2019 18:49,24.979s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:48,5/19/2019 18:48,6.067s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:48,5/19/2019 18:49,18.358s,FAILED
+,,,,,,,
+Test Cases/1512240/Case_CheckButtons,Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,26.265s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,3.343s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,2.316s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,0.234s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,20.200s,FAILED
+,,,,,,,
+Test Cases/1512240/Called5.5_Login_Twitter,Chrome 74.0.3729.157,step 1: fill username and press next step 2: fill password and press next expected: pass,,5/19/2019 18:49,5/19/2019 18:49,15.312s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,3.510s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,2.417s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,0.227s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,1.999s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,2.176s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Twitter  Authorize an application/input_Log in to Twitter_sessionusername_or_email_11""), 5, OPTIONAL) == true || verifyElementPresent(findTestObject(""Object Repository/Page_Twitter  Authorize an application/input_Log in to Twitter_sessionpassword_11""), 5, OPTIONAL) == true)",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,4.779s,PASSED
+,,,,,,,
+Test Cases/1512240/3times_NewPost,Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:50,36.603s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,4.230s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:49,2.754s,PASSED
+"callTestCase(findTestCase(""1512240/Called5.5_Login_Twitter""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:49,5/19/2019 18:50,14.203s,PASSED
+for (def index : (0..2)),Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,15.077s,FAILED
+,,,,,,,
+Test Cases/1512240/IF1.5Login_Github,Chrome 74.0.3729.157,step 1: fill username and press next step 2: fill password and press next expected: pass,,5/19/2019 18:50,5/19/2019 18:50,17.778s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,2.286s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,2.332s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,0.354s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/button_Log in or sign up""))",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,1.721s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,10.755s,FAILED
+,,,,,,,
+Test Cases/1512240/Called3.5_NewPost,Chrome 74.0.3729.157,First : TC Login_Facebook step 1: Fill title and content's post step 2: Click on send Loop 3 times  Expected: Five post has sent Expected: pass,,5/19/2019 18:50,5/19/2019 18:50,5.488s,FAILED
+"click(findTestObject(""Page_Spectrum community/span_New Post""))",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,5.478s,FAILED
+,,,,,,,
+Test Cases/1512240/3times_Login_Logout__Github,Chrome 74.0.3729.157,step 1 : TC Login_Github step 2: TC Logout Loop 5 times  Expected: pass,,5/19/2019 18:50,5/19/2019 18:51,18.484s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:50,1.741s,PASSED
+for (def index : (0..2)),Chrome 74.0.3729.157,,,5/19/2019 18:50,5/19/2019 18:51,16.587s,FAILED
+,,,,,,,
+Test Cases/1512240/IF4.5_LeaveChannel,Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,19.855s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,3.913s,PASSED
+"if (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,15.771s,FAILED
+,,,,,,,
+Test Cases/1512240/Case_Chatting,Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,23.567s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,2.088s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,1.621s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,0.222s,PASSED
+"switch (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,19.476s,FAILED
+,,,,,,,
+Test Cases/1512240/Case_CreateCommunity,Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:52,24.381s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,3.037s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,2.133s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:51,0.227s,PASSED
+"switch (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:51,5/19/2019 18:52,18.870s,FAILED
+,,,,,,,
+Test Cases/1512240/Case_DeleteCommunity,Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,25.220s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,4.167s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,1.520s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,0.226s,PASSED
+"switch (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,19.134s,FAILED
+,,,,,,,
+Test Cases/1512240/Called2.5_Logout,Chrome 74.0.3729.157,step 1: Go to Profile step 2: Go to Setting step 3: Click on button expected: pass,,5/19/2019 18:52,5/19/2019 18:52,0.546s,FAILED
+"click(findTestObject(""Object Repository/Page_Explore/span_Profile""))",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,0.427s,FAILED
+,,,,,,,
+Test Cases/1512240/Called1.5_LikePost,Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,19.892s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,3.555s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:52,16.215s,FAILED
+,,,,,,,
+Test Cases/1512240/IF2.5_SearchCommunity,Chrome 74.0.3729.157,"step 1: login step 2: type ""asdsad"" in search bar step 3: waiting for processing  expected: Atless 1 post appear",,5/19/2019 18:52,5/19/2019 18:53,20.275s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:52,5/19/2019 18:53,3.099s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,16.980s,FAILED
+,,,,,,,
+Test Cases/1512240/IF3.5_JoinChannel,Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,20.930s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,4.108s,PASSED
+"if (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,16.730s,FAILED
+,,,,,,,
+Test Cases/1512240/Called4.5_UnLikePost,Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,20.831s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,3.992s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:53,16.717s,FAILED
+,,,,,,,
+Test Cases/1512240/Case_StartChat,Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:54,25.004s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:53,5/19/2019 18:54,3.597s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,1.681s,PASSED
+maximizeWindow(),Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,0.225s,PASSED
+"switch (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,19.379s,FAILED
+,,,,,,,
+Test Cases/1512240/3times_SearchCommunity,Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,21.532s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,3.946s,PASSED
+"callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,17.172s,FAILED
+,,,,,,,
+Test Cases/1512240/IF5.5_JoinAndLeave,Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:55,19.679s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:54,3.502s,PASSED
+"if (callTestCase(findTestCase(""1512240/IF1.5Login_Github""), [:], STOP_ON_FAILURE))",Chrome 74.0.3729.157,,,5/19/2019 18:54,5/19/2019 18:55,16.005s,FAILED
+,,,,,,,
+Test Cases/1512240/3times_Login_Logout_Twitter,Chrome 74.0.3729.157,step 1 : TC Login_Twitter step 2: TC Logout Loop 3 times  Expected: pass,,5/19/2019 18:55,5/19/2019 18:56,57.201s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:55,5/19/2019 18:55,3.319s,PASSED
+for (def index : (0..2)),Chrome 74.0.3729.157,,,5/19/2019 18:55,5/19/2019 18:56,53.631s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.137s,PASSED
+,,,,,,,
+Test Cases/1512252_07,Chrome 74.0.3729.157,Create community with cookie,,5/19/2019 18:56,5/19/2019 18:56,7.032s,FAILED
+"response = sendRequest(findTestObject(""CreateCommunityWithCookie""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,6.829s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data.createCommunity.name"", ""a1234"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.064s,FAILED
+,,,,,,,
+Test Cases/1512252_03,Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.385s,PASSED
+"response = sendRequest(findTestObject(""GetCommunityBySlugSuccess""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.056s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.003s,PASSED
+"verifyElementPropertyValue(response, ""data.community.name"", ""abcxyz"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.027s,PASSED
+"verifyElementPropertyValue(response, ""data.community.name"", ""abcxyz"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.022s,PASSED
+"verifyElementPropertyValue(response, ""data.community.__typename"", ""Community"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.027s,PASSED
+"verifyElementPropertyValue(response, ""data.community.metaData.__typename"", ""CommunityMetaData"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.054s,PASSED
+,,,,,,,
+Test Cases/1512252_02,Chrome 74.0.3729.157,Test get notifications,,5/19/2019 18:56,5/19/2019 18:56,5.283s,PASSED
+"response = sendRequest(findTestObject(""GetNotifications""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.083s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.user"", null)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.012s,PASSED
+,,,,,,,
+Test Cases/1512252_06,Chrome 74.0.3729.157,Test create community without cookie,,5/19/2019 18:56,5/19/2019 18:56,5.190s,PASSED
+"response = sendRequest(findTestObject(""CreateCommunity""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.076s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.createCommunity"", null)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.014s,PASSED
+,,,,,,,
+Test Cases/1512252_09,Chrome 74.0.3729.157,Test get user by username,,5/19/2019 18:56,5/19/2019 18:56,5.171s,PASSED
+"response = sendRequest(findTestObject(""GetUserByUsername""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.050s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.user.username"", ""1512252"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data.user.__typename"", ""User"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.015s,PASSED
+,,,,,,,
+Test Cases/1512252_08,Chrome 74.0.3729.157,Test get community members,,5/19/2019 18:56,5/19/2019 18:56,5.231s,FAILED
+"response = sendRequest(findTestObject(""GetCommunityMembers""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.094s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.community.slug"", ""abcxyz"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.013s,FAILED
+,,,,,,,
+Test Cases/1512252_01,Chrome 74.0.3729.157,Test get current user,,5/19/2019 18:56,5/19/2019 18:56,5.701s,PASSED
+"response = sendRequest(findTestObject(""GetCurrentUser""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.595s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.user"", null)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.014s,PASSED
+,,,,,,,
+Test Cases/1512252_05,Chrome 74.0.3729.157,Test get current user with cookie,,5/19/2019 18:56,5/19/2019 18:56,5.493s,PASSED
+"response = sendRequest(findTestObject(""GetCurrentUserWIthCookie""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.350s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.003s,PASSED
+"verifyElementPropertyValue(response, ""data.user.name"", ""1512252"")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.014s,PASSED
+,,,,,,,
+Test Cases/1512252_04,Chrome 74.0.3729.157,Get community by slug fail,,5/19/2019 18:56,5/19/2019 18:56,5.222s,PASSED
+"response = sendRequest(findTestObject(""GetCommunityBySlugFail""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.070s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.001s,PASSED
+"verifyElementPropertyValue(response, ""data.community"", null)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.011s,PASSED
+,,,,,,,
+Test Cases/1512252_10,Chrome 74.0.3729.157,Test edit user without cookie,,5/19/2019 18:56,5/19/2019 18:56,5.231s,PASSED
+"response = sendRequest(findTestObject(""EditUser""))",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,5.056s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""data.editUser"", null)",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:56,0.016s,PASSED
+,,,,,,,
+Test Cases/1512241_01,Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:57,20.956s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:56,5/19/2019 18:57,2.945s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:57,5/19/2019 18:57,5.298s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 18:57,5/19/2019 18:57,1.747s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 18:57,5/19/2019 18:57,10.795s,FAILED
+,,,,,,,
+Test Cases/1512241_02,Chrome 74.0.3729.157,,,5/19/2019 18:59,5/19/2019 19:00,19.788s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 18:59,5/19/2019 18:59,4.000s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 18:59,5/19/2019 18:59,2.926s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/button_Create your community""))",Chrome 74.0.3729.157,,,5/19/2019 18:59,5/19/2019 19:00,2.134s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,10.720s,FAILED
+,,,,,,,
+Test Cases/1512241_03,Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,18.925s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,3.261s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,2.514s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Create your community""))",Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,2.037s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:00,5/19/2019 19:00,10.880s,FAILED
+,,,,,,,
+Test Cases/1512241_04,Chrome 74.0.3729.157,,,5/19/2019 19:03,5/19/2019 19:03,17.725s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:03,5/19/2019 19:03,3.621s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:03,5/19/2019 19:03,1.790s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:03,5/19/2019 19:03,1.606s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:03,5/19/2019 19:03,10.702s,FAILED
+,,,,,,,
+Test Cases/1512241_05,Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:05,20.052s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:04,2.433s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:04,2.576s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:04,2.452s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Google""))",Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:04,1.843s,PASSED
+"setText(findTestObject(""Page_ng nhp - Ti khon Google/input_Spectrum_identifier""), ""dongkha97"")",Chrome 74.0.3729.157,,,5/19/2019 19:04,5/19/2019 19:05,10.735s,FAILED
+,,,,,,,
+Test Cases/1512241_06,Chrome 74.0.3729.157,,,5/19/2019 19:05,5/19/2019 19:05,16.633s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:05,5/19/2019 19:05,1.638s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:05,5/19/2019 19:05,1.976s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:05,5/19/2019 19:05,1.752s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:05,5/19/2019 19:05,10.738s,FAILED
+,,,,,,,
+Test Cases/1512241_07,Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,17.329s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,3.188s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,1.767s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,1.662s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,10.701s,FAILED
+,,,,,,,
+Test Cases/1512241_08,Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:07,13.475s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,3.354s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,2.160s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,1.677s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,1.773s,PASSED
+"setText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionusername_or_email""), Username)",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,0.236s,PASSED
+"setEncryptedText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionpassword""), Password)",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:06,0.169s,PASSED
+"click(findTestObject(""Page_Twitter  Authorize an application/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 19:06,5/19/2019 19:07,3.235s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:07,0.663s,PASSED
+,,,,,,,
+Test Cases/1512241_09,Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:08,18.999s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:07,3.576s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:07,1.949s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:07,1.606s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:07,5/19/2019 19:08,11.647s,FAILED
+,,,,,,,
+Test Cases/1512241_10,Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,16.840s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,2.883s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,1.856s,PASSED
+"click(findTestObject(""Page_Spectrum/svg_menu (4)""))",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,11.935s,FAILED
+,,,,,,,
+Test Cases/1512241_15,Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,19.712s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,2.959s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,3.712s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,2.026s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:08,5/19/2019 19:08,10.871s,FAILED
+,,,,,,,
+Test Cases/1512241_11,Chrome 74.0.3729.157,,,5/19/2019 19:09,5/19/2019 19:10,17.537s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:09,5/19/2019 19:09,3.415s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:09,5/19/2019 19:10,1.552s,PASSED
+"click(findTestObject(""Object Repository/button_Create your community""))",Chrome 74.0.3729.157,,,5/19/2019 19:10,5/19/2019 19:10,1.902s,PASSED
+"click(findTestObject(""Object Repository/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:10,5/19/2019 19:10,10.661s,FAILED
+,,,,,,,
+Test Cases/1512241_14,Chrome 74.0.3729.157,,,5/19/2019 19:11,5/19/2019 19:11,17.967s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:11,5/19/2019 19:11,3.344s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:11,5/19/2019 19:11,2.389s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:11,5/19/2019 19:11,1.597s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:11,5/19/2019 19:11,10.629s,FAILED
+,,,,,,,
+Test Cases/1512241_19,Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,19.668s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,3.138s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,2.102s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,1.174s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Google""))",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,2.615s,PASSED
+"setText(findTestObject(""Page_ng nhp - Ti khon Google/input_Spectrum_identifier""), ""dongkha97"")",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,10.624s,FAILED
+,,,,,,,
+Test Cases/1512241_18,Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,11.057s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,1.787s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,1.724s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,1.514s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,1.622s,PASSED
+"setText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionusername_or_email""), Username)",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,0.252s,PASSED
+"setEncryptedText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionpassword""), Password)",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,0.163s,PASSED
+"click(findTestObject(""Page_Twitter  Authorize an application/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,3.054s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 19:13,5/19/2019 19:13,0.595s,PASSED
+,,,,,,,
+Test Cases/1512241_13,Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:15,19.139s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:15,4.610s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:15,1.660s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:15,1.706s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:15,11.153s,FAILED
+,,,,,,,
+Test Cases/1512241_17,Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:16,18.911s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:15,5/19/2019 19:16,4.143s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:16,5/19/2019 19:16,2.576s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:16,5/19/2019 19:16,1.351s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:16,5/19/2019 19:16,10.582s,FAILED
+,,,,,,,
+Test Cases/1512241_12,Chrome 74.0.3729.157,,,5/19/2019 19:17,5/19/2019 19:17,18.285s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:17,5/19/2019 19:17,4.487s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:17,5/19/2019 19:17,1.455s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:17,5/19/2019 19:17,1.535s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:17,5/19/2019 19:17,10.568s,FAILED
+,,,,,,,
+Test Cases/1512241_20,Chrome 74.0.3729.157,,,5/19/2019 19:18,5/19/2019 19:19,12.560s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:18,5/19/2019 19:18,2.420s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:18,5/19/2019 19:18,2.050s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:18,5/19/2019 19:19,1.467s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with Twitter""))",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,1.424s,PASSED
+"setText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionusername_or_email""), Username)",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,0.261s,PASSED
+"setEncryptedText(findTestObject(""Page_Twitter  Authorize an application/input_Log in to Twitter_sessionpassword""), variable_0)",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,0.210s,PASSED
+"click(findTestObject(""Page_Twitter  Authorize an application/input_Sign in to Spectrum Development using your account_allow""))",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,3.428s,PASSED
+closeBrowser(),Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,0.664s,PASSED
+,,,,,,,
+Test Cases/1512241_16,Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,17.894s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,2.856s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,2.860s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Join Spectrum""))",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,1.192s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Chrome 74.0.3729.157,,,5/19/2019 19:19,5/19/2019 19:19,10.732s,FAILED
